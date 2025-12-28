@@ -1,0 +1,14 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Çözüm:
+Listeyi bir ağaç şeması halinde ortadan ayırıp tek eleman kalıncaya kadar devam eden bir işleme sahiptir.
+[16,21,11], [8,12,22]
+[16,21], [11], [8], [12,22]
+[16], [21], [11], [8], [12], [22]
+[11,16,21] + [8,12,22] -> Burada şuana kadar böldüğümüz takımları karşılaştırıyoruz.
+En baştaki iki sayıyı yani 11 ve 8'i karşılaştırıyoruz.Küçük olanı yeni liste içerisine alıyoruz.Ardından kalan sayıyı (11) diğer listenin yeni başı (12) ile karşılaştırırız ve ilk yaptığımız işlemi tekrarlarız.
+[8,11,12,16,21,22] -> işlemin bitişinde sonuç böyle olur.
+
+Big-O gösterimini yazınız.
+Çözüm: O(nlogn) şeklindedir.
