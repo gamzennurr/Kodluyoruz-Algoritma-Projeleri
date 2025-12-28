@@ -1,0 +1,15 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+Çözüm: Bu algoritma da dizi sıralanmaz ve eleman silinmez. Dizinin ilk elemanı Root (Kök) kabul edilir. Dizideki diğer sayılar sırayla alınır ve kökten başlanarak kıyaslama yapılır:
+Seçtiğim sayı 7 olsun gösterimi aşağıdaki gibidir.
+
+                7
+              /   \
+             5     8
+            / \     \
+           1   6     9
+          / \
+         0   3
+            / \
+           2   4 
+           
+
